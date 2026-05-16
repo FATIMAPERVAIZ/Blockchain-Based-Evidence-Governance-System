@@ -1,0 +1,8 @@
+const CONTRACT_ADDRESSES = {
+  EvidenceRegistry: "0xd0cF937Ea43D9A944708d6a8fD712bcF5263B1Cb",
+  Governance:       "0x56D8638C2E62C5a0E688DeA69c0cFEfA0b52b3F1",
+  AuditLog:         "0x4c40973542cFED35Ea70A895B0152ce1139f863c",
+  OfficerToken:     "0x6Cb11511d6dD30F2deecc124ecD5b78e77f5195c",
+};
+ 
+export default CONTRACT_ADDRESSES;

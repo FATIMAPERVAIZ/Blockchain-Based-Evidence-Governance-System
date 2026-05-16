@@ -2,17 +2,15 @@
 pragma solidity ^0.8.20;
 
 contract AccessControl {
-
-    mapping(address => bool) public officers;
-
     address public admin;
+    mapping(address => bool) public officers;
 
     constructor() {
         admin = msg.sender;
     }
 
     modifier onlyAdmin() {
-        require(msg.sender == admin, "Not admin");
+        require(msg.sender == admin, "Only admin can do this");
         _;
     }
 
@@ -20,7 +18,7 @@ contract AccessControl {
         officers[_officer] = true;
     }
 
-    function isOfficer(address _user) public view returns(bool) {
+    function isOfficer(address _user) public view returns (bool) {
         return officers[_user];
     }
 }
