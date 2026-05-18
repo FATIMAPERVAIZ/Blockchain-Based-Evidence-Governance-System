@@ -2,9 +2,6 @@ import { useMemo } from "react";
 import { Contract } from "ethers";
 import ADDRESSES from "../utils/addresses";
 
-// ── Import your compiled ABI JSON files from src/abis/ ──────────
-// After `npx hardhat compile`, copy the .json files from
-//   artifacts/contracts/<Name>.sol/<Name>.json  →  src/abis/
 import EvidenceRegistryABI from "../abis/EvidenceRegistry.json";
 import GovernanceABI        from "../abis/Governance.json";
 import AuditLogABI          from "../abis/AuditLog.json";
