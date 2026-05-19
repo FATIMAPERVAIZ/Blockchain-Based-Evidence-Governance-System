@@ -1,4 +1,4 @@
-# Blockchain-Based Evidence Governance System
+# ForensiChain: Blockchain-Based Evidence Governance System
 
 This project is a decentralized application designed for the secure and transparent management of digital evidence using Ethereum smart contracts. By leveraging blockchain technology, it ensures data integrity, auditability, and decentralized governance for evidence handling.
 
